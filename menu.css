@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #navi{
+    text-align: left;
+    background-color: #f4f4f4;
+    text-indent: 20px;
+    padding: 20px;
+    font-weight: bold;
+    word-spacing: 7px;
+    letter-spacing: 6px;
+  }
+  
+  #navi > a{
+    text-decoration: none;
+    color:#433533;
+  }
+  
+  #navi>a:hover{
+    color:#a8836d;
+  }
+
+#banner{
+    background-image: url(pexels-lina-kivaka-1813466.jpg);
+    background-color:#937574;
+    height: 90px;
+    padding: 140px;
+    font: 40px Georgia, bold; 
+    text-align: center;  }
+
+#banner{
+    background-image: url(pexels-lina-kivaka-1813466.jpg);
+    background-color: #c9b6b4;
+    height: 90px;
+    padding: 140px;
+    font: 40px Georgia, bold; 
+    text-align: center; }
+
+#bannertitle{
+   text-size-adjust: -50px;
+    color:#937574;
+    text-align: center;}
+
+
+nav {
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 6px;
+    word-spacing: 30px;}
+
+ .dropbtn {
+    background-color:#795e5d;
+    margin-left: 40px;
+    border-radius: 3%;
+    color: white;
+    padding: 15px;
+    width: 150px;
+    font-size: 14px;
+    border: none;  }
+
+.dropdown-content {
+    display: none;
+    margin-left: 40px ;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 213px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: -260px;
+    margin-left: 250px;}
+    
+  .dropdown-content a {
+    color: black;
+    padding: 12px 14px;
+    text-decoration: none;
+    display: block;}
+
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown-content a:hover {
+      background-color: rgba(0,0,0,0.2)}
+  .dropdown:hover .dropbtn {
+      background-color:#9b8686;}
+
+ h1{
+     color: black;
+     margin-left: -20px;
+    padding: 15px; 
+    border-bottom: 2px #080808 solid;
+    padding-bottom: 10px;
+
+}
+
+ h4{
+    color:black;
+    margin-top: -100px;
+    margin-left: 270px; }
+
+.Drinks{
+    margin: 94px;}
+
+#title1{
+   margin-left: 470px ;
+   margin-top: -300px;}
+
+.food{
+    margin-top: 80px;}
+
+ #imga{
+     margin-left: 40px;
+     border-radius: 50%;
+     margin-top: 60px;
+     margin-bottom: 20px;}
+
+ #imgfood{
+     border-radius: 20%;
+     margin-bottom: 276px;}
+
+ footer{
+    background-color: #cac0ba;
+    position: relative;
+    bottom: -70px;
+    margin-top: 170px; }
+ 
+ nav.footernav{
+    padding-top: 0rem;
+    letter-spacing: -1px;
+    word-spacing: 4px;}

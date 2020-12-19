@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navi{
+  text-align: left;
+  background-color: #f4f4f4;
+  text-indent: 20px;
+  padding: 20px;
+  font-weight: bold;
+  word-spacing: 7px;
+  letter-spacing: 6px;
+}
+
+#navi > a{
+  text-decoration: none;
+  color:#433533;
+}
+
+#navi>a:hover{
+  color:#a8836d;
+}
+
+/* #banner{
+    background-image: url(pexels-lina-kivaka-1813466.jpg);
+    background-color:#937574;
+    height: 90px;
+    padding: 140px;
+    font: 40px Georgia, bold; 
+    text-align: center;  
+} */
+
+/* #banner{
+    background-image: url(pexels-lina-kivaka-1813466.jpg);
+    background-color: #c9b6b4;
+    height: 90px;
+    padding: 140px;
+    font: 40px Georgia, bold; 
+    text-align: center;  
+} */
+
+/* #bannertitle{
+   text-size-adjust: -50px;
+    color:#937574;
+    text-align: center;
+} */
+
+#catlogo{
+    margin-right: -390px;
+    margin-top: -800px;
+}
+
+/* 
+ h1{
+     /* text-align: center; */
+     color: rgb(93, 133, 93);
+ } */
+
+ .color1{
+     color:rgb(93, 133, 93);
+     margin-right: 380px;
+     font-weight: bold;
+     margin-left: -10px; 
+     margin-bottom: -2px;
+     margin-top: 15px;
+ }
+
+ h2{
+    margin-left:15px;
+    font-weight: bold;
+    padding: 1em;
+ }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 2px;
+    margin-bottom: 16px;
+    resize: vertical;
+    cursor: text;
+  }
+
+  input[type=submit]{
+      background-color: rgb(93, 133, 93);
+      color: white;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: green;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 2px;
+  }
+
+  .column {
+    float: left;
+    width: 40%;
+    margin-top: 2px;
+    padding: 40px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  footer{
+    background-color: #cac0ba;
+    position: relative;
+    bottom: -70px;
+ }
+ 
+ nav.footernav{
+    padding-top: 0rem;
+    letter-spacing: -1px;
+    word-spacing: 4px;
+ }
+ 
