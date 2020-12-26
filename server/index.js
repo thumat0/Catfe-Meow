@@ -1,21 +1,14 @@
 const express = require("express");
+const bodyParser = require("body-parser");
 const app = express();
-const http = require("http");
-const server = http.createServer(app);
 const port = 3000;
+const userQueries = require("./user/userqueries");
 
-// app.get("/", (req, res) => {
-//     res.status(200).send(`Hello World! Our server is running at port ${port}`);
-// });
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
-app.get("/Node", (req, res) => {
-    res.send("Tutorial on Node");
-});
+app.post("/contacts", userQueries.insertContact);
 
-app.get("/Angular", (req, res) => {
-    res.send("Tutorial on Angular");
-});
-
-server.listen(port, () => {
+app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
